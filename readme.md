@@ -18,7 +18,7 @@
   <em>A complete retail analytics dashboard that turns raw sales files into clean data, business insights, and actionable demand forecasts.</em>
 </p>
 
-> **Live Demo:** Replace `YOUR_STREAMLIT_APP_LIVE_URL_HERE` in this README with the URL of your deployed Streamlit application when it is available.
+> **Live Demo:** https://bussiness-intelligence-automation-system-8htggjwo8gbo2bsxym3sp.streamlit.app/
 
 ---
 
@@ -136,7 +136,6 @@ SQLite Storage
 ├── forecaster.py          # 30-day sales forecasting module
 ├── dummy_dataset.py       # Generates sample data for testing
 ├── generate_test_data.py  # Generates intentionally dirty CSV and Excel test files
-├── raw_sales_sample.csv   # Sample sales dataset
 ├── requirements.txt       # Python dependencies
 ├── readme.md              # Project documentation
 └── sales.db               # Generated SQLite database after ingestion
@@ -215,7 +214,7 @@ http://localhost:8501
 
 ## 🧪 Test Data
 
-The repository includes sample-data utilities for testing the ingestion pipeline. Run the scripts below when you want to generate sample or intentionally messy datasets:
+Run the scripts below when you want to generate sample or intentionally messy datasets:
 
 ```bash
 python dummy_dataset.py
